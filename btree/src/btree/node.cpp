@@ -28,3 +28,8 @@ template<class T>
 void Node<T>::set_leaf(bool is_leaf) {
     leaf = is_leaf;
 }
+
+template<class T>
+uint32_t Node<T>::find_index(const T &key) {
+
+}

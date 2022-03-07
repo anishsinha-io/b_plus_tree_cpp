@@ -14,6 +14,7 @@ public:
         root = nullptr;
     }
 
+
 private:
     Node<T> *root;
 };

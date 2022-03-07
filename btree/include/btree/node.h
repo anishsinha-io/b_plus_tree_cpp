@@ -30,7 +30,12 @@ public:
 
     // sets the `leaf` property of a node
     void set_leaf(bool);
-    
+
+    // T must overload comparator operators or this method will not work!
+    // this method finds the index where an element is or would be inserted at
+    uint32_t find_index(const T &);
+
+    //
 private:
     bool leaf;
     uint32_t order;
